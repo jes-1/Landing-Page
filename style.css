@@ -1,0 +1,147 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background-color:bisque;
+    flex-direction: column;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 300px;
+    background-color: #1F2937;
+}
+
+.left-side {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.section-2 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.button-1 {
+    border-color: #1F2937;
+}
+
+.first-image {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section-3 {
+    background-color:aliceblue;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+img {
+    height: 250px;
+    width: 200px;
+}
+
+.picture-text {
+    height: 100px;
+    width: 200px;
+}
+
+.section-4 {
+    display: flex;
+    background-color:#e5e7eb;
+    padding: 60px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.section-5 {
+    display: flex;
+    background-color: aliceblue;
+    color: white;
+    padding: 60px;
+    justify-content: center;
+}
+
+.action-text {
+    display: flex;
+    font-weight: bold;
+}
+
+.container-bottom {
+    display: flex;
+    background-color: #3882f6;
+    padding: 60px;
+    border-radius: 8px;
+}
+
+.end {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    justify-content: center;
+
+}
+
+.button-2 {
+    border-color: white;
+}
